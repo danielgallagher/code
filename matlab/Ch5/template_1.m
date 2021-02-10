@@ -1,5 +1,8 @@
 %% Template 1
 % Perform data collection then offline processing
+
+frameSize = 32768; 
+framesToCollect = 50;
 data = zeros(frameSize, framesToCollect);
 % Collect all frames in continuity
 for frame = 1:framesToCollect
